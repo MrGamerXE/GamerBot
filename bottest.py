@@ -199,3 +199,4 @@ async def calc(ctx, number, action, number2):
      await ctx.send("Действие не найдено.")
 
 token = os.envirom.get("BOT_TOKEN")
+bot.run(str(token))
